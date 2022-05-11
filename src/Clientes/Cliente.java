@@ -79,14 +79,13 @@ public class Cliente implements Calculos, Serializable {
 
     @Override
     public String toString() {
-        return "Cliente{" +
-                "numCliente=" + numCliente +
-                ", nombre='" + nombre + '\'' +
-                ", apellido1='" + apellido1 + '\'' +
-                ", apellido2='" + apellido2 + '\'' +
-                ", ingresosMedios=" + ingresosMedios +
-                ", gastosMedios=" + gastosMedios +
-                '}';
+        return numCliente + " " +
+                nombre + " " +
+                apellido1 + " " +
+                apellido2 + " " +
+                saldo + " " +
+                ingresosMedios + " " +
+                gastosMedios;
     }
 
 

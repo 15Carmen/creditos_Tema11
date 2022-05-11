@@ -73,10 +73,10 @@
 7300 Ana_maria Hernandez Pardo 257771 3518 5772 Virgen_del_mayor_dolor 41054
 7400 Lucia Muñoz Perez -95125 2016 6558 Virgen_del_mar 41057
 7500 Cristina Saez Perez -113688 914 7943 Virgen_del_dulce_nombre 41046
-7600 Laura Romero Picazo -35675 4551 7428 Virgen_del_carmen dolorosa 41062
+7600 Laura Romero Picazo -35675 4551 7428 Virgen_del_carmen_dolorosa 41062
 7700 Encarnacion Rubio Picazo -43212 9282 8670 Virgen_del_carmen 41063
 7800 Juana Alfaro Purple -235177 5674 7995 Virgen_del_buen_aire 41016
-7900 Maria teresa Molina Ramirez -60875 7250 7880 Virgen_del_aguila 41056
+7900 Maria_teresa Molina Ramirez -60875 7250 7880 Virgen_del_aguila 41056
 8000 Rosario Lozano Ramirez -156951 1960 3763 Virgen_de_villadiego 41014
 8100 Elena Castillo Red 88167 3129 8266 Virgen_de_valvanera 41027
 8200 Marta Picazo Requena -79126 9819 8490 Virgen_de_valme 41059
@@ -102,6 +102,6 @@
 10200 Rosa Tebar Torres -90782 2029 9728 Virgen_de_la_victoria 41008
 10300 Ascension Requena Torres 162678 8469 2143 Virgen_de_setefilla 41075
 10400 Andrea Arenas Valero -31012 6546 2842 Virgen_de_robledo 41017
-10500 Maria_rosario Ballesteros Valero 186880 6879 4625 Virgen_de_ regla 41050
+10500 Maria_rosario Ballesteros Valero 186880 6879 4625 Virgen_de_regla 41050
 10600 Maria_jesus Collado White 274546 1972 7042 Virgen_de_montserrat 41005
 10700 Maria_luisa Ramirez Yellow 195571 31 9562 Virgen_de_lujan 41065

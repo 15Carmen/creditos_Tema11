@@ -17,17 +17,15 @@ public class Cliente2 extends Cliente{
 
     @Override
     public String toString() {
-        return "Cliente2{" +
-                "numCliente=" + numCliente +
-                ", nombre='" + nombre + '\'' +
-                ", apellido1='" + apellido1 + '\'' +
-                ", apellido2='" + apellido2 + '\'' +
-                ", saldo=" + saldo +
-                ", ingresosMedios=" + ingresosMedios +
-                ", gastosMedios=" + gastosMedios +
-                ", CP='" + CP + '\'' +
-                ", direcion='" + direcion + '\'' +
-                '}';
+        return numCliente + " " +
+                nombre + " " +
+                apellido1 + " " +
+                apellido2 + " " +
+                saldo + " " +
+                ingresosMedios + " " +
+                gastosMedios + " " +
+                CP + " " +
+                direcion;
     }
 
     public int getCP() {

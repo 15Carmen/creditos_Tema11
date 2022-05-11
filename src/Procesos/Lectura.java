@@ -14,26 +14,28 @@ public class Lectura {
     public static void leer(){
 
         Cliente2 cliente=new Cliente2();
-        String lectura;
-        Scanner sc;
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader("src/Archivos/Clientes.txt"))){
 
-            lectura= bufferedReader.readLine();
-            sc=new Scanner(lectura);
+            String lectura= bufferedReader.readLine();
 
-            cliente.setNumCliente(sc.nextInt());
-            cliente.setNombre(sc.next());
-            cliente.setApellido1(sc.next());
-            cliente.setApellido2(sc.next());
-            cliente.setSaldo(sc.nextDouble());
-            cliente.setIngresosMedios(sc.nextDouble());
-            cliente.setGastosMedios(sc.nextDouble());
-            cliente.setDirecion(sc.next());
-            cliente.setCP(sc.nextInt());
+            while (lectura!=null) {
+                Scanner sc=new Scanner(lectura);
 
-            System.out.println(cliente);
+                cliente.setNumCliente(sc.nextInt());
+                cliente.setNombre(sc.next());
+                cliente.setApellido1(sc.next());
+                cliente.setApellido2(sc.next());
+                cliente.setSaldo(sc.nextDouble());
+                cliente.setIngresosMedios(sc.nextDouble());
+                cliente.setGastosMedios(sc.nextDouble());
+                cliente.setDirecion(sc.next());
+                cliente.setCP(sc.nextInt());
 
+                System.out.println(cliente);
+
+                lectura= bufferedReader.readLine();
+            }
 
         } catch (FileNotFoundException e) {
             System.out.println("No encontrado el fichero");
