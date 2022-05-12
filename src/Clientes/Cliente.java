@@ -90,10 +90,10 @@ public class Cliente implements Calculos, Serializable {
 
 
     @Override
-    public boolean calculoVip(Cliente cliente) {
+    public boolean calculoVip() {
         boolean esVip=false;
 
-        if (cliente.saldo<0 && cliente.ingresosMedios>3000){
+        if (this.saldo<0 && this.ingresosMedios>3000){
             esVip=true;
         }
         return esVip;
@@ -101,10 +101,10 @@ public class Cliente implements Calculos, Serializable {
     }
 
     @Override
-    public boolean calculoRobinson(Cliente cliente) {
+    public boolean calculoRobinson() {
         boolean esRobinson=false;
 
-        if (cliente.saldo>0 && cliente.gastosMedios>3000){
+        if (this.saldo>0 && this.gastosMedios>3000){
             esRobinson=true;
         }
         return esRobinson;
